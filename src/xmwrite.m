@@ -16,7 +16,6 @@ GENERAL
 	From xmread: [ncols nrows form type name fmt] = nameData{:}
 %}
 
-%% 
 function xmwrite(M,path,form,name,fmt)
 
 % Capital 'W' works as buffered IO: faster small fprintf calls

@@ -19,7 +19,7 @@ function U = MODSUP(X,m,k,Fw,omega,zeta)
     e       = exp(1.0);
 
     if ~exist('zeta','var')     b = zeros(size(m));
-    else                        b = 2*(m.*omega).*zeta;
+    else                        b = 2*(m.*omega).*zeta;                     % 2*(m.*sqrt(k)).*zeta; dimensions?
     end
 
 % Modal force matrix
